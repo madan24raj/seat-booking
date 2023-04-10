@@ -1,0 +1,13 @@
+.wing-form{
+    background-color: rgb(213, 228, 236);
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.wing-forms{
+    min-width: 400px;
+}
+.wing-form input, .wing-form button{
+    display: inline;
+    margin-top: 10px;
+}

@@ -1,0 +1,196 @@
+.container{
+  margin-top: 20px;
+}
+h3{
+  text-align: left;
+}
+.wing{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+.header{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.small-Nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #d6d1d5;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #eff3f3;
+}
+.table-main{
+
+    width: 400px;
+    height: 130px;
+    background-color: #ffffff;
+    border: 2px solid #d6d1d5;
+    border-radius: 3px;
+    margin:5px 30px;
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+}
+.tableC{
+  margin: 20px 0;
+}
+
+.seat{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #00e239;
+    border-radius: 4px;
+    box-shadow: 0px 8px 36px rgb(179, 179, 179);
+
+    
+}
+.seat:hover{
+    background-color: #215cad;
+}
+
+.seat-top, .seat-bottom{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.red{
+  border: 2px solid #e20000;
+}
+.orange{
+  border: 2px solid #d4a523;
+}
+
+
+
+
+
+
+
+ .form{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+  } 
+
+  .form span{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    cursor: pointer;
+
+
+
+  }
+ 
+
+
+
+.form, .pop {
+  
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px 40px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+}
+
+.pop{
+  min-height: 0;
+}
+
+.form > h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+  letter-spacing: 2px;
+}
+
+.info {
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.header label{
+  margin-right: 15px;
+}
+.header label, .form label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+.form input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.header input,.header select,.form input, .form select {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #d6d1d5;
+  margin-top: 5px;
+}
+.header input,.header select{
+  margin-top: 0px;
+}
+.form select {
+  display: block;
+  width: 100%;
+  height: 35px;
+}
+
+
+.header button, .form button {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 	0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color: #215cad;
+  color: #fefefe;
+}
+.header button{
+  padding: 	5px;
+
+}
+button:hover {
+  background-color: #4A4E69;
+  color: #fefefe;
+}
+
+.error {
+  color:#db2269;
+  font-size: 0.5em;
+  display: relative;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  

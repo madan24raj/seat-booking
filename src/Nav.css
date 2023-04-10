@@ -1,0 +1,32 @@
+.custom-nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: flex-end;
+
+}
+.custom-nav div{
+    margin: 5px 25px;
+}
+.logo h1{
+    color: #35ff35;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-items li{
+    display: inline;
+    padding: 10px 25px;
+    border-bottom: solid 5px transparent;
+ 
+}
+.menu-items li:hover{
+
+    border-bottom: solid 5px #35ff35;
+ 
+}
+
+.menu-items li a{
+    text-decoration: none;
+    color: white ;
+}
